@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-// import video from "../../../video/hero-bg.mp4";
+import video from "../../../video/hero-bg.mp4";
 import "./Hero.css";
 import { NavLink } from 'react-router-dom';
 
@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-background">
-        {/* <video className="background" autoPlay loop muted>
+        <video className="background" autoPlay loop muted>
           <source src={video} type="video/mp4"></source>
-        </video> */}
+        </video>
         <div className="overlay"></div>
       </div>
       <div className="hero-title">
