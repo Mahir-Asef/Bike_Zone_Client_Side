@@ -118,7 +118,7 @@ function Dashboard(props) {
           >
             <Button color="inherit">
               {" "}
-              All Bikes
+             Manage All Bikes
             </Button>
           </Link>
           <br />

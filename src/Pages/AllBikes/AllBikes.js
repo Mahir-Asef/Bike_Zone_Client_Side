@@ -10,7 +10,7 @@ const AllBikes = () => {
         <div>
             <Navigation></Navigation>
             <AllBikeSection></AllBikeSection>
-            <Footer></Footer>
+            <Footer>d</Footer>
         </div>
     );
 };

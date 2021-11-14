@@ -13,7 +13,7 @@ const Card = (props) => {
         <BootCard.Title>{name}</BootCard.Title>
         <BootCard.Text>
             {description.slice(0, 100)}...
-            <h1>{price}</h1>
+            <h1>৳ {price}</h1>
         </BootCard.Text>
         <NavLink className="" to={`/bikes/${_id}`}>
           <Button className="button-light mb-4">View Details</Button>
