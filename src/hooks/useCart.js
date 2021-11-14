@@ -56,7 +56,7 @@ const useCart = () => {
           setBookedBike(restAfterDelete);
         }
         alert("Order canceled");
-        // window.location.reload(true);
+        window.location.reload(true);
       });
     }
   };
