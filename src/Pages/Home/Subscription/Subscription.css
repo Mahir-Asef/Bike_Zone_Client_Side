@@ -1,0 +1,8 @@
+.newsletter {
+    background-image: url(https://i.pinimg.com/originals/a1/7f/53/a17f53ea98aff851c1713c7b4a77c965.jpg);
+    padding: 140px;
+    box-sizing: border-box;
+    background-position: bottom;
+    text-align: center;
+    object-fit: cover;
+  }

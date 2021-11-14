@@ -1,0 +1,11 @@
+.banner-img{
+    height: 500px;
+    object-fit: cover;
+}
+.banner-text{
+    color:black;
+    padding-bottom: 30px;
+}
+.text{
+    color: white;
+}

@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #3a69ce;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo:hover {
+    color: white;
+  }
+  
+  .logo-img {
+    width: 15%;
+  }
+  
+  .logo-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .nav-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-item:hover {
+    color:  #1d1d1d;
+    border-bottom: 2px solid lightgrey;
+  }
+  
+  .cart {
+    color: #ffffff;
+    font-size: 22px;
+  }
+  

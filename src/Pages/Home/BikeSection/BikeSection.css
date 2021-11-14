@@ -1,0 +1,21 @@
+.section-container {
+    margin-top: 100px;
+  }
+  
+  .section-container h4 {
+    color: #3D72A6;
+  }
+  
+  .all-bike {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  @media only screen and (max-width: 426px) {
+    .all-bike {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin: auto;
+    }
+  }

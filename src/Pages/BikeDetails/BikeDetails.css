@@ -1,0 +1,24 @@
+.bike-info {
+    display: flex;
+  }
+  
+  .bike-info img {
+    width: 50vw;
+    height: 450px;
+    border-radius: 15px;
+  }
+  .details-text{
+    
+      font-size: 20px;
+      font-weight: 400;
+      color:black;
+  }
+  @media only screen and (max-width: 426px){
+    .bike-info{
+      flex-direction: column;
+    }
+    .bike-info img {
+      width: 100%;
+      height: auto;
+    }
+  }

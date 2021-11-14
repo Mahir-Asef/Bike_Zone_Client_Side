@@ -1,0 +1,23 @@
+
+.not-found{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sad-icon{
+    font-size: 40px;
+    color: goldenrod;
+}
+.not-found-image{
+    width: 400px;
+    height: 300px;
+}
+.not-found-button{
+    color: brown;
+}
+@media only screen and (max-width: 426px) {
+    .not-found-image{
+        width: auto;
+        height: auto;
+    }
+  }
+  

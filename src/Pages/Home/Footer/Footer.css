@@ -1,0 +1,24 @@
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+}
+.icons{
+    font-size: 50px;
+    color: rgb(202, 191, 191);
+}
+.footer-text{
+    line-height: 50px;
+    background-color: brown;
+    color: white;
+}
+
+@media only screen and (max-width: 426px) {
+    .footer{
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+  }
