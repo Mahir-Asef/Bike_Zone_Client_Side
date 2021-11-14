@@ -86,14 +86,15 @@ const BikeDetails = () => {
             </div>
           </div>
           <Button
+          className="text-white m-3 mx-5 btn btn-danger"
             onClick={() => {
-              if (uid) {
+              // if (uid) {
                 addToCart(bike);
-              } else {
-                history.push("/login");
-              }
+              // } else {
+              //   history.push("/login");
+              // }
             }}
-            className="text-white m-3 mx-5 btn btn-danger"
+ 
           >
             Add To Cart
           </Button>
