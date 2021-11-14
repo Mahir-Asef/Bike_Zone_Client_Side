@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 const AllBookings = () => {
     const [bike,setBike] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/cart")
+        fetch("https://polar-meadow-16185.herokuapp.com/cart")
           .then((res) => res.json())
           .then((data) =>{
                setBike(data)

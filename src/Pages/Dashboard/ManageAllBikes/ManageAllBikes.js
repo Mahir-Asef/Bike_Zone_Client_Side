@@ -7,7 +7,7 @@ const ManageAllBikes = () => {
     const [bikes, setBikes] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bikes")
+    fetch("https://polar-meadow-16185.herokuapp.com/bikes")
       .then((res) => res.json())
       .then((data) => setBikes(data))
       .catch((err) => console.log(err));

@@ -7,7 +7,7 @@ const useCart = () => {
   const [bookedBike, setBookedBike] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/cart/${uid}`)
+    fetch(`https://polar-meadow-16185.herokuapp.com/cart/${uid}`)
       .then((res) => res.json())
       .then((data) => {
           console.log(data);
@@ -26,7 +26,7 @@ const useCart = () => {
     bike.uid = uid;
     bike.status = "pending";
 
-    fetch("http://localhost:5000/cart", {
+    fetch("https://polar-meadow-16185.herokuapp.com/cart", {
       method: "post",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(bike),
@@ -46,7 +46,7 @@ const useCart = () => {
   const cancelFromCart = (id) => {
     const confirm = window.confirm("are you sure?");
     if(confirm) {
-      fetch(`http://localhost:5000/cart/${id}`, {
+      fetch(`https://polar-meadow-16185.herokuapp.com/cart/${id}`, {
       method: "delete",
     })
       .then((res) => res.json())
@@ -63,7 +63,7 @@ const useCart = () => {
    const cancelFromBikes = (id) => {
     const confirm = window.confirm("are you sure?");
     if(confirm) {
-      fetch(`http://localhost:5000/bikes/${id}`, {
+      fetch(`https://polar-meadow-16185.herokuapp.com/bikes/${id}`, {
       method: "delete",
     })
       .then((res) => res.json())

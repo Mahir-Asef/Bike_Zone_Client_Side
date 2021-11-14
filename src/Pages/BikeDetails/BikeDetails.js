@@ -36,7 +36,7 @@ const BikeDetails = () => {
   const { uid } = user;
 
   useEffect(() => {
-    fetch(`http://localhost:5000/bikes/${id}`)
+    fetch(`https://polar-meadow-16185.herokuapp.com/bikes/${id}`)
       .then((res) => res.json())
       .then((data) => setBike(data))
       .catch((err) => console.log(err));

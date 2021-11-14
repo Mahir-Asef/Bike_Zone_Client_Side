@@ -14,7 +14,7 @@ const AddANewBike = () =>{
     } = useForm();
   
     const onSubmit = (data) => {
-      fetch("http://localhost:5000/bikes", {
+      fetch("https://polar-meadow-16185.herokuapp.com/bikes", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),
