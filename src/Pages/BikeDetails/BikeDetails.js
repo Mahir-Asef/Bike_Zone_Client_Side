@@ -53,7 +53,7 @@ const BikeDetails = () => {
             <h1>{name}</h1>
             <p className="details-text">{description}</p>
             <hr />
-            <h2 className="fw-bold mb-4 text-danger">Price: ${price}</h2>
+            <h2 className="fw-bold mb-4 text-danger">Price: ৳{price}</h2>
           </div>
           <div
             className="d-flex justify-content-around p-4 text-start"
