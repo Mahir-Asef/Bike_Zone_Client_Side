@@ -15,7 +15,7 @@ const AllBookings = () => {
       }, [bike])
     return (
       <div>
-        <h1 className="dash-title text-center">ALL Bookings </h1>
+        <h1 className="dash-title text-center">ALL Orders </h1>
         <div className="all-bike">
           {bike.map((bike) => (
             <CancelCard bike={bike} key={bike._id}></CancelCard>
