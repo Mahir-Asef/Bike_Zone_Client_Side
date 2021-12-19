@@ -73,12 +73,12 @@ function Dashboard(props) {
           <Button color="inherit">My Orders</Button>
         </Link>
       <br />
-        <Link
+        {/* <Link
           to={`${url}/payment`}
           style={{ textDecoration: "none", color: "#3D72A6" }}
         >
           <Button color="inherit">Payment System</Button>
-        </Link>
+        </Link> */}
       <br />
         <Link
           to={`${url}/review`}
@@ -117,7 +117,6 @@ function Dashboard(props) {
             style={{ textDecoration: "none", color: "#3D72A6" }}
           >
             <Button color="inherit">
-              {" "}
              Manage All Products
             </Button>
           </Link>
@@ -229,7 +228,7 @@ function Dashboard(props) {
           <Route path={`${path}/bookings`}>
             <MyBookings></MyBookings>
           </Route>
-          <Route path={`${path}/payment`}>
+          <Route path={`${path}/payment/:paymentId`}>
             <Payment></Payment>
           </Route>
           <Route path={`${path}/review`}>

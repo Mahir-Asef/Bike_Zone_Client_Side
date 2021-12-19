@@ -10,7 +10,7 @@ const useCart = () => {
     fetch(`https://polar-meadow-16185.herokuapp.com/cart/${uid}`)
       .then((res) => res.json())
       .then((data) => {
-          console.log(data);
+          // console.log(data);
         if (data.length) {
           setBookedBike(data);
         }
@@ -20,7 +20,7 @@ const useCart = () => {
   // adding to cart
 
   function addToCart(bike) {
-    delete bike._id;
+    // delete bike._id;
     bike.email = user?.email;
     bike.displayName = user?.displayName;
     bike.uid = uid;
