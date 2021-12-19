@@ -70,7 +70,7 @@ function Dashboard(props) {
           to={`${url}/bookings`}
           style={{ textDecoration: "none", color: "#3D72A6" }}
         >
-          <Button color="inherit">My Bookings</Button>
+          <Button color="inherit">My Orders</Button>
         </Link>
       <br />
         <Link
@@ -109,7 +109,7 @@ function Dashboard(props) {
             style={{ textDecoration: "none", color: "#3D72A6" }}
           >
             <Button color="inherit">
-              All Bookings
+              All Orders
             </Button>
           </Link>
           <Link
@@ -118,7 +118,7 @@ function Dashboard(props) {
           >
             <Button color="inherit">
               {" "}
-             Manage All Bikes
+             Manage All Products
             </Button>
           </Link>
           <br />
@@ -186,11 +186,13 @@ function Dashboard(props) {
           ModalProps={{
             keepMounted: true,
           }}
+
           sx={{
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+
             },
           }}
         >
