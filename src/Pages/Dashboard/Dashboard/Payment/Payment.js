@@ -11,7 +11,7 @@ const Payment = () => {
   const { paymentId } = useParams();
   const [payment, setPayment] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/bikes/${paymentId}`)
+    fetch(`https://polar-meadow-16185.herokuapp.com/bikes/${paymentId}`)
       .then((res) => res.json())
       .then((data) => setPayment(data));
   }, [paymentId]);

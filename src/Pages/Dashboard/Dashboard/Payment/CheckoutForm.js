@@ -13,7 +13,7 @@ const CheckoutForm = ({payment}) => {
     const [processing, setProcessing] = useState(false);
     const [clientSecret, setClientSecret] = useState('');
     useEffect(() => {
-        fetch('http://localhost:5000/create-payment-intent', {
+        fetch('https://polar-meadow-16185.herokuapp.com/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -75,7 +75,7 @@ const CheckoutForm = ({payment}) => {
             last4: paymentMethod.card.last4,
             transaction: paymentIntent.client_secret.slice('_secret')[0]
         }
-        const url = `http://localhost:5000/cart/${_id}`;
+        const url = `https://polar-meadow-16185.herokuapp.com/cart/${_id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
