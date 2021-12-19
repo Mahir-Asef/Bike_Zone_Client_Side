@@ -127,7 +127,7 @@ function Dashboard(props) {
             style={{ textDecoration: "none", color: "#3D72A6" }}
           >
             <Button color="inherit">
-              Add New Bikes
+              Add New Products
             </Button>
           </Link>
           <br />

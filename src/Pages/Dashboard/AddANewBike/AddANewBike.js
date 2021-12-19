@@ -35,33 +35,33 @@ const AddANewBike = () =>{
                 <input 
                   {...register("name")}
                   placeholder="Bike Name"
-                  className="p-2 me-1 mb-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mb-2 input-style border border-2 rounded border-dark"
                 />
                 <input
                   {...register("fuelType")}
                   placeholder=" Fuel Name"
-                  className="p-2 ms-1 mb-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mb-2 input-style border border-2 rounded border-dark"
                 />
                 <br />
 
                 <input
                   {...register("description")}
                   placeholder="Description"
-                   className="p-2 pb-5  w-50 border border-2 rounded border-primary"
+                   className="p-2 pb-5  w-50 border border-2 rounded border-dark"
                 />
                 <br />
   
                 <input
                   {...register("img", { required: true })}
                   placeholder="Image Link"
-                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 
                 <input
                   {...register("price")}
                   type="number"
                   placeholder="price"
-                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-dark"
                 />
 
                  <br />
@@ -69,52 +69,52 @@ const AddANewBike = () =>{
                   {...register("transmission")}
                   placeholder="transmission"
                   type="text"
-                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <input 
                   {...register("tankCapacity")}
                   type="number"
                   placeholder="tank capacity"
-                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <br />
                 <input
                   {...register("weight")}
                   placeholder="weight"
                   type="number"
-                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <input 
                   {...register("seatHeight")}
                   type="number"
                   placeholder="Bike seat height"
-                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <br />
                 <input
                   {...register("engine")}
                   placeholder="Engine capacity"
                   type="text"
-                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <input 
                   {...register("maxPower")}
                   type="number"
                   placeholder="Bike Maximum power"
-                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                  <br />
                 <input
                   {...register("rating")}
                   placeholder="Bike Rating  "
                   type="number"
-                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 me-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <input 
                   {...register("color")}
                   type="text"
                   placeholder="Bike color"
-                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-primary"
+                  className="p-2 ms-1 mt-2 input-style border border-2 rounded border-dark"
                 />
                 <br />
                 {errors.exampleRequired && <span>This field is required</span>}
