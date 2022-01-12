@@ -112,6 +112,9 @@ const CheckoutForm = ({payment}) => {
       {processing ? <CircularProgress></CircularProgress> : <button type="submit" disabled={!stripe || success}>
                     Pay ${price}
                 </button>}
+      {/* {processing ? <h3 style={{color:"green"}}>Payment successfull</h3> : <button type="submit" disabled={!stripe || success}>
+                    Pay ${price}
+                </button>} */}
     </form>
     </>
   );
