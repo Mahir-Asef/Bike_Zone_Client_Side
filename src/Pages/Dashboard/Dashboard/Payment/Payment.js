@@ -19,7 +19,7 @@ const Payment = () => {
     <div className="payment">
       <h1>Payment for :{payment.name} </h1>
       <h4>Price: ${payment.price} </h4>
-      
+      {/* payment_method */}
       {payment.price && <Elements  stripe={stripePromise}>
           <CheckoutForm 
           payment={payment} />
