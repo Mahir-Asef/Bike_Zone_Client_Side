@@ -24,7 +24,7 @@ const Payment = () => {
           <CheckoutForm 
           payment={payment} />
       </Elements>}
-      <img src={payment.img} width="50%"  style={{marginTop:"10px"}}/>
+      <img src={payment.img} width="50%"  style={{marginTop:"10px"}} alt='' />
     </div>
   );
 };
